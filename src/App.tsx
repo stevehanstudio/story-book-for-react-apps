@@ -2,6 +2,7 @@ import useDarkMode from 'use-dark-mode'
 import { ThemeProvider } from 'styled-components'
 import { BrowserRouter as Router } from 'react-router-dom'
 import { Provider as StoreProvider } from 'react-redux'
+import { configureStore } from '@reduxjs/toolkit'
 
 import { store } from './app-state'
 import { AppRoutes } from './Routes'
